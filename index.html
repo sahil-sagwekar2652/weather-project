@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styli.css">
+    <script src="https://kit.fontawesome.com/498f94880d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">CLOUDY69</div>
+              
+                <ul id="sidemenu" >
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">Maps</a> </li>
+                    <li> <a href="#services">Get App</a> </li>
+                    
+                    <li> <a href="#contact">Contact</a> </li>
+
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+               
+            </nav>
+            <div class="header-text">
+               
+            </div>
+        </div>
+        
+    <div class="body">
+        <div class="card">
+            <input type="search" name="" id="searchbar" placeholder="Enter Your City">
+        </div>
+        
+    </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // ------js for mobile menubar------
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.left = "0"
+        }
+        function closemenu(){
+            sidemenu.style.left = "-200px"
+        }
+    
+    
+    </script>
+</body>
+</html>
